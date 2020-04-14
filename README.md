@@ -1,21 +1,23 @@
 # Papers2 to Zotero: Migration Helper
 
+## Description
+
 These scripts help migration from Papers2 to Zotero.
 
-# Requirements
+## Requirements
 
 * Python 3
 * Zotero (standalone)
 
-# Usage
+## Usage
 
-## Create an XML from Papers2
+### Create an XML from Papers2
 
 ```
 $ python3 BetterExportFromPapers2.py Papers2_directory >FromPapers2.xml
 ```
 
-## Import to Zotero
+### Import to Zotero
 
 * Start up Zotero, and set up library folder
 * Quit Zotero
@@ -23,7 +25,7 @@ $ python3 BetterExportFromPapers2.py Papers2_directory >FromPapers2.xml
 * Start Zotero
 * Import FromPapers2.xml
 
-# Restriction
+## Restriction
 
 Currently, only journal articles in the Papers2 database are exported (because these are all I needed).
 
